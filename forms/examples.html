@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Examples</h1>
+
+    <form action="/process" method="post">
+
+        
+        <div>
+            <!-- Text inputs -->
+            <label>First Name</label>
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            <!-- Number inputs -->
+            <label>Age</label>
+            <input type="number" name="age">
+        </div>
+        <div>
+            <!-- Password inputs -->
+            <label>Password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <!-- Date inputs -->
+            <label>Day of Birth</label>
+            <input type="date" name="dob">
+        </div>
+        <div>
+            <!-- Color Selector -->
+            <label>Color</label>
+            <input type="color" name="text_color">
+        </div>
+        <div>
+            <!-- Radio Inputs -->
+            <label>Radio</label>
+            
+            <label for="bold"><strong>Bold</strong></label>
+            <input type="radio" name="font" value="bold" id="bold">
+            
+            <label for="normal">Normal</label>
+            <input type="radio" name="font" value="normal" id="normal">
+        </div>
+        <div>
+            <!-- Checkbox Inputs -->
+            <label>Checkbox</label>
+            <label for="accept">I agree</label>
+            <input type="checkbox" name="accept" id="accept">
+        </div>
+        <div>
+            <!-- Textarea Inputs -->
+            <label>Textarea</label>
+            <textarea name="comment" cols="20" rows="3"></textarea>
+        </div>
+        <div>
+            <!-- Select Input -->
+            <select name="snack">
+                <option>Almonds</option>
+                <option>Cheese and Crackers</option>
+                <option>Pita and Hummus</option>
+                <option>Pears</option>
+            </select>
+        </div>
+        <input type="submit" value="Submit">
+        
+    </form>
+        
+    </body>
+    </html>
